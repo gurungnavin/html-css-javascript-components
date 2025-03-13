@@ -1,1 +1,1 @@
-<a href="https://dark-mode-light-mode-toggler.netlify.app/" target="_blank">Click Here For Demo</a>
+<a href="https://loading-animations-css.netlify.app/" target="_blank">Click Here For Demo</a>
