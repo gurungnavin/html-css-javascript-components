@@ -1,1 +1,1 @@
-Click here [Auto Text](https://auto-txt.netlify.app/) for demo!
+<a href="https://auto-txt.netlify.app/" target="_blank">Click Here For Demo</a>
