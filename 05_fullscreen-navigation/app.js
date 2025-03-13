@@ -30,6 +30,7 @@ btn.addEventListener("click", function () {
   }
 });
 
+
 links.forEach((link) => {
   link.addEventListener("pointerover", function () {
     const w = this.offsetWidth,
@@ -38,3 +39,15 @@ links.forEach((link) => {
     highlight.style.cssText = `transform: translateY(${t}px); width: ${w}px; height: ${h}px`;
   });
 });
+
+// Close menu on window scroll
+window.onscroll = () => {
+  if (btn.dataset.open === "open") {
+    menu.style.clipPath = "";
+    btn.dataset.open = "close";
+    highlight.style = "";
+    icon.classList.add("bx-menu");
+    icon.classList.remove("bx-x");
+    icon.style.color = "#E761A4";
+  }
+};
