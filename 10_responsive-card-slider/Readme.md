@@ -1,1 +1,1 @@
-[Click for Demo](https://cards-flips.netlify.app/)
+[Click for Demo](https://responsive-card-slider-neon.vercel.app/)
